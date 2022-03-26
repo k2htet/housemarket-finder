@@ -15,7 +15,7 @@ import Spinner from "../components/Spinner";
 
 function EditListing() {
     // eslint-disable-next-line
-    const [geolocationEnabled, setGeolocationEnabled] = useState(true);
+    const [geolocationEnabled, setGeolocationEnabled] = useState(false);
     const [loading, setLoading] = useState(false);
     const [listing, setListing] = useState(false);
     const [formData, setFormData] = useState({
